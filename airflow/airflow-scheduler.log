@@ -153,3 +153,4 @@ werkzeug.exceptions.Forbidden: 403 Forbidden: You don't have the permission to a
 2026-03-14 10:19:51,192 INFO - Marking run <DagRun etl_dag @ 2026-03-14 10:19:41.048773+00:00: manual__2026-03-14T10:19:41.048773+00:00, state:running, queued_at: 2026-03-14 10:19:41.064600+00:00. externally triggered: True> successful
 2026-03-14 10:19:51,193 INFO - DagRun Finished: dag_id=etl_dag, execution_date=2026-03-14 10:19:41.048773+00:00, run_id=manual__2026-03-14T10:19:41.048773+00:00, run_start_date=2026-03-14 10:19:42.238997+00:00, run_end_date=2026-03-14 10:19:51.193072+00:00, run_duration=8.954075, state=success, external_trigger=True, run_type=manual, data_interval_start=2026-03-14 10:19:41.048773+00:00, data_interval_end=2026-03-14 10:19:41.048773+00:00, dag_hash=32d32e570a4fe353aabfaca6ef4064fc
 2026-03-14 10:21:38,962 INFO - Resetting orphaned tasks for active dag runs
+2026-03-14 10:26:39,131 INFO - Resetting orphaned tasks for active dag runs
