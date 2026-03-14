@@ -3766,3 +3766,7 @@ File Path                                                                       
 /home/vscode/.local/lib/python3.10/site-packages/airflow/example_dags/example_branch_datetime_operator.py                                                  3           0  0.10s           2026-03-14T10:23:02
 /home/vscode/.local/lib/python3.10/site-packages/airflow/example_dags/example_datasets.py                                                                  6           0  0.10s           2026-03-14T10:23:23
 ================================================================================
+[2026-03-14T10:23:28.404+0000] {manager.py:758} INFO - Searching for files in /workspaces/hands-on-introduction-data-engineering-4395021/airflow/dags
+[2026-03-14T10:23:28.420+0000] {manager.py:761} INFO - There are 51 files in /workspaces/hands-on-introduction-data-engineering-4395021/airflow/dags
+[2026-03-14T10:23:30.955+0000] {manager.py:758} INFO - Searching for files in /workspaces/hands-on-introduction-data-engineering-4395021/airflow/dags
+[2026-03-14T10:23:30.976+0000] {manager.py:761} INFO - There are 51 files in /workspaces/hands-on-introduction-data-engineering-4395021/airflow/dags
