@@ -1,0 +1,16 @@
+[[34m2026-03-14T09:12:44.651+0000[0m] {[34mscheduler_job_runner.py:[0m788} INFO[0m - Starting the scheduler[0m
+[[34m2026-03-14T09:12:44.652+0000[0m] {[34mscheduler_job_runner.py:[0m795} INFO[0m - Processing each file at most -1 times[0m
+[[34m2026-03-14T09:12:44.658+0000[0m] {[34mmanager.py:[0m165} INFO[0m - Launched DagFileProcessorManager with pid: 9641[0m
+[[34m2026-03-14T09:12:44.662+0000[0m] {[34mscheduler_job_runner.py:[0m1553} INFO[0m - Resetting orphaned tasks for active dag runs[0m
+[[34m2026-03-14T09:12:44.668+0000[0m] {[34msettings.py:[0m60} INFO[0m - Configured default timezone Timezone('UTC')[0m
+[2026-03-14T09:12:44.707+0000] {manager.py:411} WARNING - Because we cannot use more than 1 thread (parsing_processes = 2) when using sqlite. So we set parallelism to 1.
+[[34m2026-03-14T09:17:44.899+0000[0m] {[34mscheduler_job_runner.py:[0m1553} INFO[0m - Resetting orphaned tasks for active dag runs[0m
+[[34m2026-03-14T09:22:45.062+0000[0m] {[34mscheduler_job_runner.py:[0m1553} INFO[0m - Resetting orphaned tasks for active dag runs[0m
+[[34m2026-03-14T09:24:30.146+0000[0m] {[34mscheduler_job_runner.py:[0m247} INFO[0m - Exiting gracefully upon receiving signal 15[0m
+[[34m2026-03-14T09:24:31.154+0000[0m] {[34mprocess_utils.py:[0m131} INFO[0m - Sending Signals.SIGTERM to group 9641. PIDs of all processes in the group: [9641][0m
+[[34m2026-03-14T09:24:31.154+0000[0m] {[34mprocess_utils.py:[0m86} INFO[0m - Sending the signal Signals.SIGTERM to group 9641[0m
+[[34m2026-03-14T09:24:31.660+0000[0m] {[34mprocess_utils.py:[0m79} INFO[0m - Process psutil.Process(pid=9641, status='terminated', exitcode=0, started='09:12:44') (9641) terminated with exit code 0[0m
+[[34m2026-03-14T09:24:31.663+0000[0m] {[34mprocess_utils.py:[0m131} INFO[0m - Sending Signals.SIGTERM to group 9641. PIDs of all processes in the group: [][0m
+[[34m2026-03-14T09:24:31.663+0000[0m] {[34mprocess_utils.py:[0m86} INFO[0m - Sending the signal Signals.SIGTERM to group 9641[0m
+[[34m2026-03-14T09:24:31.663+0000[0m] {[34mprocess_utils.py:[0m100} INFO[0m - Sending the signal Signals.SIGTERM to process 9641 as process group is missing.[0m
+[[34m2026-03-14T09:24:31.663+0000[0m] {[34mscheduler_job_runner.py:[0m864} INFO[0m - Exited execute loop[0m
