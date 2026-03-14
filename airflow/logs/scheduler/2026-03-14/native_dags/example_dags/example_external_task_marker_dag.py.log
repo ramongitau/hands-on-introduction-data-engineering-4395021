@@ -246,3 +246,11 @@
 [2026-03-14T10:26:46.041+0000] {logging_mixin.py:150} INFO - [2026-03-14T10:26:46.041+0000] {dag.py:3504} INFO - Setting next_dagrun for example_external_task_marker_child to None, run_after=None
 [2026-03-14T10:26:46.044+0000] {logging_mixin.py:150} INFO - [2026-03-14T10:26:46.043+0000] {dag.py:3504} INFO - Setting next_dagrun for example_external_task_marker_parent to None, run_after=None
 [2026-03-14T10:26:46.062+0000] {processor.py:179} INFO - Processing /home/vscode/.local/lib/python3.10/site-packages/airflow/example_dags/example_external_task_marker_dag.py took 0.056 seconds
+[2026-03-14T10:27:53.807+0000] {processor.py:157} INFO - Started process (PID=42406) to work on /home/vscode/.local/lib/python3.10/site-packages/airflow/example_dags/example_external_task_marker_dag.py
+[2026-03-14T10:27:53.807+0000] {processor.py:826} INFO - Processing file /home/vscode/.local/lib/python3.10/site-packages/airflow/example_dags/example_external_task_marker_dag.py for tasks to queue
+[2026-03-14T10:27:53.808+0000] {logging_mixin.py:150} INFO - [2026-03-14T10:27:53.808+0000] {dagbag.py:541} INFO - Filling up the DagBag from /home/vscode/.local/lib/python3.10/site-packages/airflow/example_dags/example_external_task_marker_dag.py
+[2026-03-14T10:27:53.813+0000] {processor.py:836} INFO - DAG(s) dict_keys(['example_external_task_marker_parent', 'example_external_task_marker_child']) retrieved from /home/vscode/.local/lib/python3.10/site-packages/airflow/example_dags/example_external_task_marker_dag.py
+[2026-03-14T10:27:53.829+0000] {logging_mixin.py:150} INFO - [2026-03-14T10:27:53.829+0000] {dag.py:2742} INFO - Sync 2 DAGs
+[2026-03-14T10:27:53.847+0000] {logging_mixin.py:150} INFO - [2026-03-14T10:27:53.847+0000] {dag.py:3504} INFO - Setting next_dagrun for example_external_task_marker_child to None, run_after=None
+[2026-03-14T10:27:53.850+0000] {logging_mixin.py:150} INFO - [2026-03-14T10:27:53.850+0000] {dag.py:3504} INFO - Setting next_dagrun for example_external_task_marker_parent to None, run_after=None
+[2026-03-14T10:27:53.869+0000] {processor.py:179} INFO - Processing /home/vscode/.local/lib/python3.10/site-packages/airflow/example_dags/example_external_task_marker_dag.py took 0.065 seconds
