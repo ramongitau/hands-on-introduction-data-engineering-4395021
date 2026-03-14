@@ -1,16 +1,195 @@
-[[34m2026-03-14T09:12:44.651+0000[0m] {[34mscheduler_job_runner.py:[0m788} INFO[0m - Starting the scheduler[0m
-[[34m2026-03-14T09:12:44.652+0000[0m] {[34mscheduler_job_runner.py:[0m795} INFO[0m - Processing each file at most -1 times[0m
-[[34m2026-03-14T09:12:44.658+0000[0m] {[34mmanager.py:[0m165} INFO[0m - Launched DagFileProcessorManager with pid: 9641[0m
-[[34m2026-03-14T09:12:44.662+0000[0m] {[34mscheduler_job_runner.py:[0m1553} INFO[0m - Resetting orphaned tasks for active dag runs[0m
-[[34m2026-03-14T09:12:44.668+0000[0m] {[34msettings.py:[0m60} INFO[0m - Configured default timezone Timezone('UTC')[0m
-[2026-03-14T09:12:44.707+0000] {manager.py:411} WARNING - Because we cannot use more than 1 thread (parsing_processes = 2) when using sqlite. So we set parallelism to 1.
-[[34m2026-03-14T09:17:44.899+0000[0m] {[34mscheduler_job_runner.py:[0m1553} INFO[0m - Resetting orphaned tasks for active dag runs[0m
-[[34m2026-03-14T09:22:45.062+0000[0m] {[34mscheduler_job_runner.py:[0m1553} INFO[0m - Resetting orphaned tasks for active dag runs[0m
-[[34m2026-03-14T09:24:30.146+0000[0m] {[34mscheduler_job_runner.py:[0m247} INFO[0m - Exiting gracefully upon receiving signal 15[0m
-[[34m2026-03-14T09:24:31.154+0000[0m] {[34mprocess_utils.py:[0m131} INFO[0m - Sending Signals.SIGTERM to group 9641. PIDs of all processes in the group: [9641][0m
-[[34m2026-03-14T09:24:31.154+0000[0m] {[34mprocess_utils.py:[0m86} INFO[0m - Sending the signal Signals.SIGTERM to group 9641[0m
-[[34m2026-03-14T09:24:31.660+0000[0m] {[34mprocess_utils.py:[0m79} INFO[0m - Process psutil.Process(pid=9641, status='terminated', exitcode=0, started='09:12:44') (9641) terminated with exit code 0[0m
-[[34m2026-03-14T09:24:31.663+0000[0m] {[34mprocess_utils.py:[0m131} INFO[0m - Sending Signals.SIGTERM to group 9641. PIDs of all processes in the group: [][0m
-[[34m2026-03-14T09:24:31.663+0000[0m] {[34mprocess_utils.py:[0m86} INFO[0m - Sending the signal Signals.SIGTERM to group 9641[0m
-[[34m2026-03-14T09:24:31.663+0000[0m] {[34mprocess_utils.py:[0m100} INFO[0m - Sending the signal Signals.SIGTERM to process 9641 as process group is missing.[0m
-[[34m2026-03-14T09:24:31.663+0000[0m] {[34mscheduler_job_runner.py:[0m864} INFO[0m - Exited execute loop[0m
+[[34m2026-03-14T10:11:38.715+0000[0m] {[34mscheduler_job_runner.py:[0m788} INFO[0m - Starting the scheduler[0m
+[[34m2026-03-14T10:11:38.718+0000[0m] {[34mscheduler_job_runner.py:[0m795} INFO[0m - Processing each file at most -1 times[0m
+[[34m2026-03-14T10:11:38.725+0000[0m] {[34mmanager.py:[0m165} INFO[0m - Launched DagFileProcessorManager with pid: 34791[0m
+[[34m2026-03-14T10:11:38.726+0000[0m] {[34mscheduler_job_runner.py:[0m1553} INFO[0m - Resetting orphaned tasks for active dag runs[0m
+[[34m2026-03-14T10:11:38.739+0000[0m] {[34msettings.py:[0m60} INFO[0m - Configured default timezone Timezone('UTC')[0m
+[2026-03-14T10:11:38.790+0000] {manager.py:411} WARNING - Because we cannot use more than 1 thread (parsing_processes = 2) when using sqlite. So we set parallelism to 1.
+[[34m2026-03-14T10:11:57.771+0000[0m] {[34mserve_logs.py:[0m60} WARNING[0m - The Authorization header is missing: Accept: text/html, application/xhtml+xml, application/xml; q=0.9, image/avif, image/webp, image/apng, */*; q=0.8, application/signed-exchange; v=b3; q=0.7
+Host: localhost:8793
+User-Agent: Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/146.0.0.0 Safari/537.36
+Accept-Encoding: gzip, deflate, br, zstd
+Accept-Language: en-GB, en-US; q=0.9, en; q=0.8
+Cache-Control: max-age=0
+Referer: https://literate-journey-977rqwvjqp6xhp4gp.github.dev/
+X-Request-Id: 399bab43131665be02bbc7f2bdfce5ba
+X-Real-Ip: 10.241.0.36
+X-Forwarded-Port: 443
+X-Forwarded-Scheme: https
+X-Original-Uri: /
+X-Scheme: https
+Sec-Fetch-Site: same-site
+Sec-Fetch-Mode: navigate
+Sec-Fetch-Dest: document
+Sec-Ch-Ua: "Chromium";v="146", "Not-A.Brand";v="24", "Google Chrome";v="146"
+Sec-Ch-Ua-Mobile: ?0
+Sec-Ch-Ua-Platform: "Windows"
+Priority: u=0, i
+X-Forwarded-Proto: https
+X-Forwarded-Host: literate-journey-977rqwvjqp6xhp4gp-8793.app.github.dev
+X-Forwarded-For: 41.90.172.39
+Proxy-Connection: Keep-Alive
+
+.[0m
+[[34m2026-03-14T10:11:57.773+0000[0m] {[34mserve_logs.py:[0m104} WARNING[0m - Unknown error[0m
+Traceback (most recent call last):
+  File "/home/vscode/.local/lib/python3.10/site-packages/airflow/utils/serve_logs.py", line 61, in validate_pre_signed_url
+    abort(403)
+  File "/home/vscode/.local/lib/python3.10/site-packages/flask/helpers.py", line 310, in abort
+    current_app.aborter(code, *args, **kwargs)
+  File "/home/vscode/.local/lib/python3.10/site-packages/werkzeug/exceptions.py", line 864, in __call__
+    raise self.mapping[code](*args, **kwargs)
+werkzeug.exceptions.Forbidden: 403 Forbidden: You don't have the permission to access the requested resource. It is either read-protected or not readable by the server.[0m
+[[34m2026-03-14T10:11:59.383+0000[0m] {[34mserve_logs.py:[0m60} WARNING[0m - The Authorization header is missing: Accept: image/avif, image/webp, image/apng, image/svg+xml, image/*, */*; q=0.8
+Host: localhost:8793
+User-Agent: Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/146.0.0.0 Safari/537.36
+Accept-Encoding: gzip, deflate, br, zstd
+Accept-Language: en-GB, en-US; q=0.9, en; q=0.8
+Referer: https://literate-journey-977rqwvjqp6xhp4gp-8793.app.github.dev/
+X-Request-Id: 84008039e964940363c6fdb8c776e3ec
+X-Real-Ip: 10.241.0.36
+X-Forwarded-Port: 443
+X-Forwarded-Scheme: https
+X-Original-Uri: /favicon.ico
+X-Scheme: https
+Sec-Ch-Ua-Platform: "Windows"
+Sec-Ch-Ua: "Chromium";v="146", "Not-A.Brand";v="24", "Google Chrome";v="146"
+Sec-Ch-Ua-Mobile: ?0
+Sec-Fetch-Site: same-origin
+Sec-Fetch-Mode: no-cors
+Sec-Fetch-Dest: image
+Priority: u=1, i
+X-Forwarded-Proto: https
+X-Forwarded-Host: literate-journey-977rqwvjqp6xhp4gp-8793.app.github.dev
+X-Forwarded-For: 41.90.172.39
+Proxy-Connection: Keep-Alive
+
+.[0m
+[[34m2026-03-14T10:11:59.385+0000[0m] {[34mserve_logs.py:[0m104} WARNING[0m - Unknown error[0m
+Traceback (most recent call last):
+  File "/home/vscode/.local/lib/python3.10/site-packages/airflow/utils/serve_logs.py", line 61, in validate_pre_signed_url
+    abort(403)
+  File "/home/vscode/.local/lib/python3.10/site-packages/flask/helpers.py", line 310, in abort
+    current_app.aborter(code, *args, **kwargs)
+  File "/home/vscode/.local/lib/python3.10/site-packages/werkzeug/exceptions.py", line 864, in __call__
+    raise self.mapping[code](*args, **kwargs)
+werkzeug.exceptions.Forbidden: 403 Forbidden: You don't have the permission to access the requested resource. It is either read-protected or not readable by the server.[0m
+[[34m2026-03-14T10:16:38.808+0000[0m] {[34mscheduler_job_runner.py:[0m1553} INFO[0m - Resetting orphaned tasks for active dag runs[0m
+[[34m2026-03-14T10:19:16.209+0000[0m] {[34mscheduler_job_runner.py:[0m411} INFO[0m - 1 tasks up for execution:
+	<TaskInstance: etl_dag.extract_task manual__2026-03-14T10:19:15.890003+00:00 [scheduled]>[0m
+[[34m2026-03-14T10:19:16.209+0000[0m] {[34mscheduler_job_runner.py:[0m476} INFO[0m - DAG etl_dag has 0/16 running and queued tasks[0m
+[[34m2026-03-14T10:19:16.209+0000[0m] {[34mscheduler_job_runner.py:[0m587} INFO[0m - Setting the following tasks to queued state:
+	<TaskInstance: etl_dag.extract_task manual__2026-03-14T10:19:15.890003+00:00 [scheduled]>[0m
+[[34m2026-03-14T10:19:16.211+0000[0m] {[34mscheduler_job_runner.py:[0m625} INFO[0m - Sending TaskInstanceKey(dag_id='etl_dag', task_id='extract_task', run_id='manual__2026-03-14T10:19:15.890003+00:00', try_number=1, map_index=-1) to executor with priority 3 and queue default[0m
+[[34m2026-03-14T10:19:16.211+0000[0m] {[34mbase_executor.py:[0m147} INFO[0m - Adding to queue: ['airflow', 'tasks', 'run', 'etl_dag', 'extract_task', 'manual__2026-03-14T10:19:15.890003+00:00', '--local', '--subdir', 'DAGS_FOLDER/etl_dag.py'][0m
+[[34m2026-03-14T10:19:16.216+0000[0m] {[34msequential_executor.py:[0m74} INFO[0m - Executing command: ['airflow', 'tasks', 'run', 'etl_dag', 'extract_task', 'manual__2026-03-14T10:19:15.890003+00:00', '--local', '--subdir', 'DAGS_FOLDER/etl_dag.py'][0m
+[[34m2026-03-14T10:19:17.141+0000[0m] {[34mdagbag.py:[0m541} INFO[0m - Filling up the DagBag from /workspaces/hands-on-introduction-data-engineering-4395021/airflow/dags/etl_dag.py[0m
+[[34m2026-03-14T10:19:18.054+0000[0m] {[34mexample_kubernetes_executor.py:[0m41} WARNING[0m - The example_kubernetes_executor example DAG requires the kubernetes provider. Please install it with: pip install apache-airflow[cncf.kubernetes][0m
+[[34m2026-03-14T10:19:18.112+0000[0m] {[34mexample_local_kubernetes_executor.py:[0m39} WARNING[0m - Could not import DAGs in example_local_kubernetes_executor.py[0m
+Traceback (most recent call last):
+  File "/home/vscode/.local/lib/python3.10/site-packages/airflow/example_dags/example_local_kubernetes_executor.py", line 37, in <module>
+    from kubernetes.client import models as k8s
+ModuleNotFoundError: No module named 'kubernetes'
+[[34m2026-03-14T10:19:18.113+0000[0m] {[34mexample_local_kubernetes_executor.py:[0m40} WARNING[0m - Install Kubernetes dependencies with: pip install apache-airflow[cncf.kubernetes][0m
+[[34m2026-03-14T10:19:18.180+0000[0m] {[34mtask_command.py:[0m410} INFO[0m - Running <TaskInstance: etl_dag.extract_task manual__2026-03-14T10:19:15.890003+00:00 [queued]> on host codespaces-56a941[0m
+[[34m2026-03-14T10:19:18.713+0000[0m] {[34mscheduler_job_runner.py:[0m677} INFO[0m - Received executor event with state success for task instance TaskInstanceKey(dag_id='etl_dag', task_id='extract_task', run_id='manual__2026-03-14T10:19:15.890003+00:00', try_number=1, map_index=-1)[0m
+[[34m2026-03-14T10:19:18.718+0000[0m] {[34mscheduler_job_runner.py:[0m713} INFO[0m - TaskInstance Finished: dag_id=etl_dag, task_id=extract_task, run_id=manual__2026-03-14T10:19:15.890003+00:00, map_index=-1, run_start_date=2026-03-14 10:19:18.220529+00:00, run_end_date=2026-03-14 10:19:18.345789+00:00, run_duration=0.12526, state=success, executor_state=success, try_number=1, max_tries=1, job_id=3, pool=default_pool, queue=default, priority_weight=3, operator=PythonOperator, queued_dttm=2026-03-14 10:19:16.210001+00:00, queued_by_job_id=2, pid=38328[0m
+[[34m2026-03-14T10:19:18.910+0000[0m] {[34mscheduler_job_runner.py:[0m411} INFO[0m - 1 tasks up for execution:
+	<TaskInstance: etl_dag.transform_task manual__2026-03-14T10:19:15.890003+00:00 [scheduled]>[0m
+[[34m2026-03-14T10:19:18.911+0000[0m] {[34mscheduler_job_runner.py:[0m476} INFO[0m - DAG etl_dag has 0/16 running and queued tasks[0m
+[[34m2026-03-14T10:19:18.911+0000[0m] {[34mscheduler_job_runner.py:[0m587} INFO[0m - Setting the following tasks to queued state:
+	<TaskInstance: etl_dag.transform_task manual__2026-03-14T10:19:15.890003+00:00 [scheduled]>[0m
+[[34m2026-03-14T10:19:18.914+0000[0m] {[34mscheduler_job_runner.py:[0m625} INFO[0m - Sending TaskInstanceKey(dag_id='etl_dag', task_id='transform_task', run_id='manual__2026-03-14T10:19:15.890003+00:00', try_number=1, map_index=-1) to executor with priority 2 and queue default[0m
+[[34m2026-03-14T10:19:18.914+0000[0m] {[34mbase_executor.py:[0m147} INFO[0m - Adding to queue: ['airflow', 'tasks', 'run', 'etl_dag', 'transform_task', 'manual__2026-03-14T10:19:15.890003+00:00', '--local', '--subdir', 'DAGS_FOLDER/etl_dag.py'][0m
+[[34m2026-03-14T10:19:18.920+0000[0m] {[34msequential_executor.py:[0m74} INFO[0m - Executing command: ['airflow', 'tasks', 'run', 'etl_dag', 'transform_task', 'manual__2026-03-14T10:19:15.890003+00:00', '--local', '--subdir', 'DAGS_FOLDER/etl_dag.py'][0m
+[[34m2026-03-14T10:19:19.747+0000[0m] {[34mdagbag.py:[0m541} INFO[0m - Filling up the DagBag from /workspaces/hands-on-introduction-data-engineering-4395021/airflow/dags/etl_dag.py[0m
+[[34m2026-03-14T10:19:20.741+0000[0m] {[34mexample_kubernetes_executor.py:[0m41} WARNING[0m - The example_kubernetes_executor example DAG requires the kubernetes provider. Please install it with: pip install apache-airflow[cncf.kubernetes][0m
+[[34m2026-03-14T10:19:20.809+0000[0m] {[34mexample_local_kubernetes_executor.py:[0m39} WARNING[0m - Could not import DAGs in example_local_kubernetes_executor.py[0m
+Traceback (most recent call last):
+  File "/home/vscode/.local/lib/python3.10/site-packages/airflow/example_dags/example_local_kubernetes_executor.py", line 37, in <module>
+    from kubernetes.client import models as k8s
+ModuleNotFoundError: No module named 'kubernetes'
+[[34m2026-03-14T10:19:20.809+0000[0m] {[34mexample_local_kubernetes_executor.py:[0m40} WARNING[0m - Install Kubernetes dependencies with: pip install apache-airflow[cncf.kubernetes][0m
+[[34m2026-03-14T10:19:20.874+0000[0m] {[34mtask_command.py:[0m410} INFO[0m - Running <TaskInstance: etl_dag.transform_task manual__2026-03-14T10:19:15.890003+00:00 [queued]> on host codespaces-56a941[0m
+[[34m2026-03-14T10:19:21.435+0000[0m] {[34mscheduler_job_runner.py:[0m677} INFO[0m - Received executor event with state success for task instance TaskInstanceKey(dag_id='etl_dag', task_id='transform_task', run_id='manual__2026-03-14T10:19:15.890003+00:00', try_number=1, map_index=-1)[0m
+[[34m2026-03-14T10:19:21.440+0000[0m] {[34mscheduler_job_runner.py:[0m713} INFO[0m - TaskInstance Finished: dag_id=etl_dag, task_id=transform_task, run_id=manual__2026-03-14T10:19:15.890003+00:00, map_index=-1, run_start_date=2026-03-14 10:19:20.908111+00:00, run_end_date=2026-03-14 10:19:21.050264+00:00, run_duration=0.142153, state=success, executor_state=success, try_number=1, max_tries=1, job_id=4, pool=default_pool, queue=default, priority_weight=2, operator=PythonOperator, queued_dttm=2026-03-14 10:19:18.912617+00:00, queued_by_job_id=2, pid=38348[0m
+[[34m2026-03-14T10:19:21.631+0000[0m] {[34mscheduler_job_runner.py:[0m411} INFO[0m - 1 tasks up for execution:
+	<TaskInstance: etl_dag.load_task manual__2026-03-14T10:19:15.890003+00:00 [scheduled]>[0m
+[[34m2026-03-14T10:19:21.631+0000[0m] {[34mscheduler_job_runner.py:[0m476} INFO[0m - DAG etl_dag has 0/16 running and queued tasks[0m
+[[34m2026-03-14T10:19:21.631+0000[0m] {[34mscheduler_job_runner.py:[0m587} INFO[0m - Setting the following tasks to queued state:
+	<TaskInstance: etl_dag.load_task manual__2026-03-14T10:19:15.890003+00:00 [scheduled]>[0m
+[[34m2026-03-14T10:19:21.632+0000[0m] {[34mscheduler_job_runner.py:[0m625} INFO[0m - Sending TaskInstanceKey(dag_id='etl_dag', task_id='load_task', run_id='manual__2026-03-14T10:19:15.890003+00:00', try_number=1, map_index=-1) to executor with priority 1 and queue default[0m
+[[34m2026-03-14T10:19:21.633+0000[0m] {[34mbase_executor.py:[0m147} INFO[0m - Adding to queue: ['airflow', 'tasks', 'run', 'etl_dag', 'load_task', 'manual__2026-03-14T10:19:15.890003+00:00', '--local', '--subdir', 'DAGS_FOLDER/etl_dag.py'][0m
+[[34m2026-03-14T10:19:21.638+0000[0m] {[34msequential_executor.py:[0m74} INFO[0m - Executing command: ['airflow', 'tasks', 'run', 'etl_dag', 'load_task', 'manual__2026-03-14T10:19:15.890003+00:00', '--local', '--subdir', 'DAGS_FOLDER/etl_dag.py'][0m
+[[34m2026-03-14T10:19:22.491+0000[0m] {[34mdagbag.py:[0m541} INFO[0m - Filling up the DagBag from /workspaces/hands-on-introduction-data-engineering-4395021/airflow/dags/etl_dag.py[0m
+[[34m2026-03-14T10:19:23.350+0000[0m] {[34mexample_kubernetes_executor.py:[0m41} WARNING[0m - The example_kubernetes_executor example DAG requires the kubernetes provider. Please install it with: pip install apache-airflow[cncf.kubernetes][0m
+[[34m2026-03-14T10:19:23.412+0000[0m] {[34mexample_local_kubernetes_executor.py:[0m39} WARNING[0m - Could not import DAGs in example_local_kubernetes_executor.py[0m
+Traceback (most recent call last):
+  File "/home/vscode/.local/lib/python3.10/site-packages/airflow/example_dags/example_local_kubernetes_executor.py", line 37, in <module>
+    from kubernetes.client import models as k8s
+ModuleNotFoundError: No module named 'kubernetes'
+[[34m2026-03-14T10:19:23.413+0000[0m] {[34mexample_local_kubernetes_executor.py:[0m40} WARNING[0m - Install Kubernetes dependencies with: pip install apache-airflow[cncf.kubernetes][0m
+[[34m2026-03-14T10:19:23.553+0000[0m] {[34mtask_command.py:[0m410} INFO[0m - Running <TaskInstance: etl_dag.load_task manual__2026-03-14T10:19:15.890003+00:00 [queued]> on host codespaces-56a941[0m
+[[34m2026-03-14T10:19:24.137+0000[0m] {[34mscheduler_job_runner.py:[0m677} INFO[0m - Received executor event with state success for task instance TaskInstanceKey(dag_id='etl_dag', task_id='load_task', run_id='manual__2026-03-14T10:19:15.890003+00:00', try_number=1, map_index=-1)[0m
+[[34m2026-03-14T10:19:24.140+0000[0m] {[34mscheduler_job_runner.py:[0m713} INFO[0m - TaskInstance Finished: dag_id=etl_dag, task_id=load_task, run_id=manual__2026-03-14T10:19:15.890003+00:00, map_index=-1, run_start_date=2026-03-14 10:19:23.627786+00:00, run_end_date=2026-03-14 10:19:23.755579+00:00, run_duration=0.127793, state=success, executor_state=success, try_number=1, max_tries=1, job_id=5, pool=default_pool, queue=default, priority_weight=1, operator=PythonOperator, queued_dttm=2026-03-14 10:19:21.632081+00:00, queued_by_job_id=2, pid=38371[0m
+[[34m2026-03-14T10:19:24.303+0000[0m] {[34mdagrun.py:[0m630} INFO[0m - Marking run <DagRun etl_dag @ 2026-03-14 10:19:15.890003+00:00: manual__2026-03-14T10:19:15.890003+00:00, state:running, queued_at: 2026-03-14 10:19:15.940988+00:00. externally triggered: True> successful[0m
+[[34m2026-03-14T10:19:24.303+0000[0m] {[34mdagrun.py:[0m681} INFO[0m - DagRun Finished: dag_id=etl_dag, execution_date=2026-03-14 10:19:15.890003+00:00, run_id=manual__2026-03-14T10:19:15.890003+00:00, run_start_date=2026-03-14 10:19:16.179691+00:00, run_end_date=2026-03-14 10:19:24.303910+00:00, run_duration=8.124219, state=success, external_trigger=True, run_type=manual, data_interval_start=2026-03-14 10:19:15.890003+00:00, data_interval_end=2026-03-14 10:19:15.890003+00:00, dag_hash=32d32e570a4fe353aabfaca6ef4064fc[0m
+[[34m2026-03-14T10:19:42.260+0000[0m] {[34mscheduler_job_runner.py:[0m411} INFO[0m - 1 tasks up for execution:
+	<TaskInstance: etl_dag.extract_task manual__2026-03-14T10:19:41.048773+00:00 [scheduled]>[0m
+[[34m2026-03-14T10:19:42.260+0000[0m] {[34mscheduler_job_runner.py:[0m476} INFO[0m - DAG etl_dag has 0/16 running and queued tasks[0m
+[[34m2026-03-14T10:19:42.261+0000[0m] {[34mscheduler_job_runner.py:[0m587} INFO[0m - Setting the following tasks to queued state:
+	<TaskInstance: etl_dag.extract_task manual__2026-03-14T10:19:41.048773+00:00 [scheduled]>[0m
+[[34m2026-03-14T10:19:42.262+0000[0m] {[34mscheduler_job_runner.py:[0m625} INFO[0m - Sending TaskInstanceKey(dag_id='etl_dag', task_id='extract_task', run_id='manual__2026-03-14T10:19:41.048773+00:00', try_number=1, map_index=-1) to executor with priority 3 and queue default[0m
+[[34m2026-03-14T10:19:42.263+0000[0m] {[34mbase_executor.py:[0m147} INFO[0m - Adding to queue: ['airflow', 'tasks', 'run', 'etl_dag', 'extract_task', 'manual__2026-03-14T10:19:41.048773+00:00', '--local', '--subdir', 'DAGS_FOLDER/etl_dag.py'][0m
+[[34m2026-03-14T10:19:42.266+0000[0m] {[34msequential_executor.py:[0m74} INFO[0m - Executing command: ['airflow', 'tasks', 'run', 'etl_dag', 'extract_task', 'manual__2026-03-14T10:19:41.048773+00:00', '--local', '--subdir', 'DAGS_FOLDER/etl_dag.py'][0m
+[[34m2026-03-14T10:19:43.598+0000[0m] {[34mdagbag.py:[0m541} INFO[0m - Filling up the DagBag from /workspaces/hands-on-introduction-data-engineering-4395021/airflow/dags/etl_dag.py[0m
+[[34m2026-03-14T10:19:44.805+0000[0m] {[34mexample_kubernetes_executor.py:[0m41} WARNING[0m - The example_kubernetes_executor example DAG requires the kubernetes provider. Please install it with: pip install apache-airflow[cncf.kubernetes][0m
+[[34m2026-03-14T10:19:44.862+0000[0m] {[34mexample_local_kubernetes_executor.py:[0m39} WARNING[0m - Could not import DAGs in example_local_kubernetes_executor.py[0m
+Traceback (most recent call last):
+  File "/home/vscode/.local/lib/python3.10/site-packages/airflow/example_dags/example_local_kubernetes_executor.py", line 37, in <module>
+    from kubernetes.client import models as k8s
+ModuleNotFoundError: No module named 'kubernetes'
+[[34m2026-03-14T10:19:44.862+0000[0m] {[34mexample_local_kubernetes_executor.py:[0m40} WARNING[0m - Install Kubernetes dependencies with: pip install apache-airflow[cncf.kubernetes][0m
+[[34m2026-03-14T10:19:44.924+0000[0m] {[34mtask_command.py:[0m410} INFO[0m - Running <TaskInstance: etl_dag.extract_task manual__2026-03-14T10:19:41.048773+00:00 [queued]> on host codespaces-56a941[0m
+[[34m2026-03-14T10:19:45.466+0000[0m] {[34mscheduler_job_runner.py:[0m677} INFO[0m - Received executor event with state success for task instance TaskInstanceKey(dag_id='etl_dag', task_id='extract_task', run_id='manual__2026-03-14T10:19:41.048773+00:00', try_number=1, map_index=-1)[0m
+[[34m2026-03-14T10:19:45.470+0000[0m] {[34mscheduler_job_runner.py:[0m713} INFO[0m - TaskInstance Finished: dag_id=etl_dag, task_id=extract_task, run_id=manual__2026-03-14T10:19:41.048773+00:00, map_index=-1, run_start_date=2026-03-14 10:19:44.967830+00:00, run_end_date=2026-03-14 10:19:45.073272+00:00, run_duration=0.105442, state=success, executor_state=success, try_number=1, max_tries=1, job_id=6, pool=default_pool, queue=default, priority_weight=3, operator=PythonOperator, queued_dttm=2026-03-14 10:19:42.261558+00:00, queued_by_job_id=2, pid=38502[0m
+[[34m2026-03-14T10:19:45.709+0000[0m] {[34mscheduler_job_runner.py:[0m411} INFO[0m - 1 tasks up for execution:
+	<TaskInstance: etl_dag.transform_task manual__2026-03-14T10:19:41.048773+00:00 [scheduled]>[0m
+[[34m2026-03-14T10:19:45.709+0000[0m] {[34mscheduler_job_runner.py:[0m476} INFO[0m - DAG etl_dag has 0/16 running and queued tasks[0m
+[[34m2026-03-14T10:19:45.709+0000[0m] {[34mscheduler_job_runner.py:[0m587} INFO[0m - Setting the following tasks to queued state:
+	<TaskInstance: etl_dag.transform_task manual__2026-03-14T10:19:41.048773+00:00 [scheduled]>[0m
+[[34m2026-03-14T10:19:45.711+0000[0m] {[34mscheduler_job_runner.py:[0m625} INFO[0m - Sending TaskInstanceKey(dag_id='etl_dag', task_id='transform_task', run_id='manual__2026-03-14T10:19:41.048773+00:00', try_number=1, map_index=-1) to executor with priority 2 and queue default[0m
+[[34m2026-03-14T10:19:45.711+0000[0m] {[34mbase_executor.py:[0m147} INFO[0m - Adding to queue: ['airflow', 'tasks', 'run', 'etl_dag', 'transform_task', 'manual__2026-03-14T10:19:41.048773+00:00', '--local', '--subdir', 'DAGS_FOLDER/etl_dag.py'][0m
+[[34m2026-03-14T10:19:45.715+0000[0m] {[34msequential_executor.py:[0m74} INFO[0m - Executing command: ['airflow', 'tasks', 'run', 'etl_dag', 'transform_task', 'manual__2026-03-14T10:19:41.048773+00:00', '--local', '--subdir', 'DAGS_FOLDER/etl_dag.py'][0m
+[[34m2026-03-14T10:19:46.536+0000[0m] {[34mdagbag.py:[0m541} INFO[0m - Filling up the DagBag from /workspaces/hands-on-introduction-data-engineering-4395021/airflow/dags/etl_dag.py[0m
+[[34m2026-03-14T10:19:47.492+0000[0m] {[34mexample_kubernetes_executor.py:[0m41} WARNING[0m - The example_kubernetes_executor example DAG requires the kubernetes provider. Please install it with: pip install apache-airflow[cncf.kubernetes][0m
+[[34m2026-03-14T10:19:47.543+0000[0m] {[34mexample_local_kubernetes_executor.py:[0m39} WARNING[0m - Could not import DAGs in example_local_kubernetes_executor.py[0m
+Traceback (most recent call last):
+  File "/home/vscode/.local/lib/python3.10/site-packages/airflow/example_dags/example_local_kubernetes_executor.py", line 37, in <module>
+    from kubernetes.client import models as k8s
+ModuleNotFoundError: No module named 'kubernetes'
+[[34m2026-03-14T10:19:47.543+0000[0m] {[34mexample_local_kubernetes_executor.py:[0m40} WARNING[0m - Install Kubernetes dependencies with: pip install apache-airflow[cncf.kubernetes][0m
+[[34m2026-03-14T10:19:47.609+0000[0m] {[34mtask_command.py:[0m410} INFO[0m - Running <TaskInstance: etl_dag.transform_task manual__2026-03-14T10:19:41.048773+00:00 [queued]> on host codespaces-56a941[0m
+[[34m2026-03-14T10:19:48.258+0000[0m] {[34mscheduler_job_runner.py:[0m677} INFO[0m - Received executor event with state success for task instance TaskInstanceKey(dag_id='etl_dag', task_id='transform_task', run_id='manual__2026-03-14T10:19:41.048773+00:00', try_number=1, map_index=-1)[0m
+[[34m2026-03-14T10:19:48.262+0000[0m] {[34mscheduler_job_runner.py:[0m713} INFO[0m - TaskInstance Finished: dag_id=etl_dag, task_id=transform_task, run_id=manual__2026-03-14T10:19:41.048773+00:00, map_index=-1, run_start_date=2026-03-14 10:19:47.647177+00:00, run_end_date=2026-03-14 10:19:47.808712+00:00, run_duration=0.161535, state=success, executor_state=success, try_number=1, max_tries=1, job_id=7, pool=default_pool, queue=default, priority_weight=2, operator=PythonOperator, queued_dttm=2026-03-14 10:19:45.710231+00:00, queued_by_job_id=2, pid=38515[0m
+[[34m2026-03-14T10:19:48.426+0000[0m] {[34mscheduler_job_runner.py:[0m411} INFO[0m - 1 tasks up for execution:
+	<TaskInstance: etl_dag.load_task manual__2026-03-14T10:19:41.048773+00:00 [scheduled]>[0m
+[[34m2026-03-14T10:19:48.427+0000[0m] {[34mscheduler_job_runner.py:[0m476} INFO[0m - DAG etl_dag has 0/16 running and queued tasks[0m
+[[34m2026-03-14T10:19:48.427+0000[0m] {[34mscheduler_job_runner.py:[0m587} INFO[0m - Setting the following tasks to queued state:
+	<TaskInstance: etl_dag.load_task manual__2026-03-14T10:19:41.048773+00:00 [scheduled]>[0m
+[[34m2026-03-14T10:19:48.428+0000[0m] {[34mscheduler_job_runner.py:[0m625} INFO[0m - Sending TaskInstanceKey(dag_id='etl_dag', task_id='load_task', run_id='manual__2026-03-14T10:19:41.048773+00:00', try_number=1, map_index=-1) to executor with priority 1 and queue default[0m
+[[34m2026-03-14T10:19:48.428+0000[0m] {[34mbase_executor.py:[0m147} INFO[0m - Adding to queue: ['airflow', 'tasks', 'run', 'etl_dag', 'load_task', 'manual__2026-03-14T10:19:41.048773+00:00', '--local', '--subdir', 'DAGS_FOLDER/etl_dag.py'][0m
+[[34m2026-03-14T10:19:48.432+0000[0m] {[34msequential_executor.py:[0m74} INFO[0m - Executing command: ['airflow', 'tasks', 'run', 'etl_dag', 'load_task', 'manual__2026-03-14T10:19:41.048773+00:00', '--local', '--subdir', 'DAGS_FOLDER/etl_dag.py'][0m
+[[34m2026-03-14T10:19:49.422+0000[0m] {[34mdagbag.py:[0m541} INFO[0m - Filling up the DagBag from /workspaces/hands-on-introduction-data-engineering-4395021/airflow/dags/etl_dag.py[0m
+[[34m2026-03-14T10:19:50.293+0000[0m] {[34mexample_kubernetes_executor.py:[0m41} WARNING[0m - The example_kubernetes_executor example DAG requires the kubernetes provider. Please install it with: pip install apache-airflow[cncf.kubernetes][0m
+[[34m2026-03-14T10:19:50.358+0000[0m] {[34mexample_local_kubernetes_executor.py:[0m39} WARNING[0m - Could not import DAGs in example_local_kubernetes_executor.py[0m
+Traceback (most recent call last):
+  File "/home/vscode/.local/lib/python3.10/site-packages/airflow/example_dags/example_local_kubernetes_executor.py", line 37, in <module>
+    from kubernetes.client import models as k8s
+ModuleNotFoundError: No module named 'kubernetes'
+[[34m2026-03-14T10:19:50.358+0000[0m] {[34mexample_local_kubernetes_executor.py:[0m40} WARNING[0m - Install Kubernetes dependencies with: pip install apache-airflow[cncf.kubernetes][0m
+[[34m2026-03-14T10:19:50.450+0000[0m] {[34mtask_command.py:[0m410} INFO[0m - Running <TaskInstance: etl_dag.load_task manual__2026-03-14T10:19:41.048773+00:00 [queued]> on host codespaces-56a941[0m
+[[34m2026-03-14T10:19:51.013+0000[0m] {[34mscheduler_job_runner.py:[0m677} INFO[0m - Received executor event with state success for task instance TaskInstanceKey(dag_id='etl_dag', task_id='load_task', run_id='manual__2026-03-14T10:19:41.048773+00:00', try_number=1, map_index=-1)[0m
+[[34m2026-03-14T10:19:51.017+0000[0m] {[34mscheduler_job_runner.py:[0m713} INFO[0m - TaskInstance Finished: dag_id=etl_dag, task_id=load_task, run_id=manual__2026-03-14T10:19:41.048773+00:00, map_index=-1, run_start_date=2026-03-14 10:19:50.494955+00:00, run_end_date=2026-03-14 10:19:50.652900+00:00, run_duration=0.157945, state=success, executor_state=success, try_number=1, max_tries=1, job_id=8, pool=default_pool, queue=default, priority_weight=1, operator=PythonOperator, queued_dttm=2026-03-14 10:19:48.427737+00:00, queued_by_job_id=2, pid=38540[0m
+[[34m2026-03-14T10:19:51.192+0000[0m] {[34mdagrun.py:[0m630} INFO[0m - Marking run <DagRun etl_dag @ 2026-03-14 10:19:41.048773+00:00: manual__2026-03-14T10:19:41.048773+00:00, state:running, queued_at: 2026-03-14 10:19:41.064600+00:00. externally triggered: True> successful[0m
+[[34m2026-03-14T10:19:51.193+0000[0m] {[34mdagrun.py:[0m681} INFO[0m - DagRun Finished: dag_id=etl_dag, execution_date=2026-03-14 10:19:41.048773+00:00, run_id=manual__2026-03-14T10:19:41.048773+00:00, run_start_date=2026-03-14 10:19:42.238997+00:00, run_end_date=2026-03-14 10:19:51.193072+00:00, run_duration=8.954075, state=success, external_trigger=True, run_type=manual, data_interval_start=2026-03-14 10:19:41.048773+00:00, data_interval_end=2026-03-14 10:19:41.048773+00:00, dag_hash=32d32e570a4fe353aabfaca6ef4064fc[0m
+[[34m2026-03-14T10:21:38.962+0000[0m] {[34mscheduler_job_runner.py:[0m1553} INFO[0m - Resetting orphaned tasks for active dag runs[0m

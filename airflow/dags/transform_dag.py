@@ -24,7 +24,7 @@ def transform_data():
     today = datetime.today().date()
     
     # Read in our CSV
-    df = pd.read_csv('../../data/top-level-domain-names.csv')
+    df = pd.read_csv('/workspaces/hands-on-introduction-data-engineering-4395021/data/top-level-domain-names.csv')
     
     # Filter the dataframe down to only the rows with the type being generic
     df = df[df['Type'] == 'generic']
@@ -33,7 +33,7 @@ def transform_data():
     df['date'] = today.strftime('%Y-%m-%d')
     
     # Write out our new CSV
-    df.to_csv('../../lab/orchestrated/airflow-transform-data.csv', index=False)
+    df.to_csv('/workspaces/hands-on-introduction-data-engineering-4395021/lab/orchestrated/airflow-transform-data.csv', index=False)
 
 transform_task = PythonOperator(
     task_id='transform_task',

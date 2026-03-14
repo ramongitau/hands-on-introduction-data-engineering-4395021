@@ -1,9 +1,5 @@
-[2026-03-14 09:12:44 +0000] [9635] [INFO] Starting gunicorn 20.1.0
-[2026-03-14 09:12:44 +0000] [9635] [INFO] Listening at: http://[::]:8793 (9635)
-[2026-03-14 09:12:44 +0000] [9635] [INFO] Using worker: sync
-[2026-03-14 09:12:44 +0000] [9640] [INFO] Booting worker with pid: 9640
-[2026-03-14 09:12:44 +0000] [9642] [INFO] Booting worker with pid: 9642
-[2026-03-14 09:24:31 +0000] [9635] [INFO] Handling signal: term
-[2026-03-14 09:24:31 +0000] [9642] [INFO] Worker exiting (pid: 9642)
-[2026-03-14 09:24:31 +0000] [9640] [INFO] Worker exiting (pid: 9640)
-[2026-03-14 09:24:31 +0000] [9635] [INFO] Shutting down: Master
+[2026-03-14 10:11:38 +0000] [34785] [INFO] Starting gunicorn 20.1.0
+[2026-03-14 10:11:38 +0000] [34785] [INFO] Listening at: http://[::]:8793 (34785)
+[2026-03-14 10:11:38 +0000] [34785] [INFO] Using worker: sync
+[2026-03-14 10:11:38 +0000] [34790] [INFO] Booting worker with pid: 34790
+[2026-03-14 10:11:38 +0000] [34792] [INFO] Booting worker with pid: 34792
