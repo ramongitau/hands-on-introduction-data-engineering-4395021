@@ -205,3 +205,10 @@
 [2026-03-14T10:21:02.229+0000] {logging_mixin.py:150} INFO - [2026-03-14T10:21:02.229+0000] {dag.py:2742} INFO - Sync 1 DAGs
 [2026-03-14T10:21:02.243+0000] {logging_mixin.py:150} INFO - [2026-03-14T10:21:02.243+0000] {dag.py:3504} INFO - Setting next_dagrun for example_xcom to 2021-01-01T00:00:00+00:00, run_after=2021-01-01T00:00:00+00:00
 [2026-03-14T10:21:02.260+0000] {processor.py:179} INFO - Processing /home/vscode/.local/lib/python3.10/site-packages/airflow/example_dags/example_xcom.py took 0.053 seconds
+[2026-03-14T10:21:46.535+0000] {processor.py:157} INFO - Started process (PID=39338) to work on /home/vscode/.local/lib/python3.10/site-packages/airflow/example_dags/example_xcom.py
+[2026-03-14T10:21:46.536+0000] {processor.py:826} INFO - Processing file /home/vscode/.local/lib/python3.10/site-packages/airflow/example_dags/example_xcom.py for tasks to queue
+[2026-03-14T10:21:46.537+0000] {logging_mixin.py:150} INFO - [2026-03-14T10:21:46.537+0000] {dagbag.py:541} INFO - Filling up the DagBag from /home/vscode/.local/lib/python3.10/site-packages/airflow/example_dags/example_xcom.py
+[2026-03-14T10:21:46.548+0000] {processor.py:836} INFO - DAG(s) dict_keys(['example_xcom']) retrieved from /home/vscode/.local/lib/python3.10/site-packages/airflow/example_dags/example_xcom.py
+[2026-03-14T10:21:46.569+0000] {logging_mixin.py:150} INFO - [2026-03-14T10:21:46.569+0000] {dag.py:2742} INFO - Sync 1 DAGs
+[2026-03-14T10:21:46.586+0000] {logging_mixin.py:150} INFO - [2026-03-14T10:21:46.586+0000] {dag.py:3504} INFO - Setting next_dagrun for example_xcom to 2021-01-01T00:00:00+00:00, run_after=2021-01-01T00:00:00+00:00
+[2026-03-14T10:21:46.616+0000] {processor.py:179} INFO - Processing /home/vscode/.local/lib/python3.10/site-packages/airflow/example_dags/example_xcom.py took 0.083 seconds
