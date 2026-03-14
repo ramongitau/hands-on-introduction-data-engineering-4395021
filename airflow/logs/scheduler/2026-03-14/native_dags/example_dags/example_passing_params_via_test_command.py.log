@@ -184,3 +184,10 @@
 [2026-03-14T10:21:22.509+0000] {logging_mixin.py:150} INFO - [2026-03-14T10:21:22.509+0000] {dag.py:2742} INFO - Sync 1 DAGs
 [2026-03-14T10:21:22.526+0000] {logging_mixin.py:150} INFO - [2026-03-14T10:21:22.526+0000] {dag.py:3504} INFO - Setting next_dagrun for example_passing_params_via_test_command to 2026-03-14T10:20:00+00:00, run_after=2026-03-14T10:21:00+00:00
 [2026-03-14T10:21:22.542+0000] {processor.py:179} INFO - Processing /home/vscode/.local/lib/python3.10/site-packages/airflow/example_dags/example_passing_params_via_test_command.py took 0.059 seconds
+[2026-03-14T10:22:11.041+0000] {processor.py:157} INFO - Started process (PID=39566) to work on /home/vscode/.local/lib/python3.10/site-packages/airflow/example_dags/example_passing_params_via_test_command.py
+[2026-03-14T10:22:11.042+0000] {processor.py:826} INFO - Processing file /home/vscode/.local/lib/python3.10/site-packages/airflow/example_dags/example_passing_params_via_test_command.py for tasks to queue
+[2026-03-14T10:22:11.043+0000] {logging_mixin.py:150} INFO - [2026-03-14T10:22:11.043+0000] {dagbag.py:541} INFO - Filling up the DagBag from /home/vscode/.local/lib/python3.10/site-packages/airflow/example_dags/example_passing_params_via_test_command.py
+[2026-03-14T10:22:11.051+0000] {processor.py:836} INFO - DAG(s) dict_keys(['example_passing_params_via_test_command']) retrieved from /home/vscode/.local/lib/python3.10/site-packages/airflow/example_dags/example_passing_params_via_test_command.py
+[2026-03-14T10:22:11.072+0000] {logging_mixin.py:150} INFO - [2026-03-14T10:22:11.072+0000] {dag.py:2742} INFO - Sync 1 DAGs
+[2026-03-14T10:22:11.091+0000] {logging_mixin.py:150} INFO - [2026-03-14T10:22:11.091+0000] {dag.py:3504} INFO - Setting next_dagrun for example_passing_params_via_test_command to 2026-03-14T10:21:00+00:00, run_after=2026-03-14T10:22:00+00:00
+[2026-03-14T10:22:11.115+0000] {processor.py:179} INFO - Processing /home/vscode/.local/lib/python3.10/site-packages/airflow/example_dags/example_passing_params_via_test_command.py took 0.076 seconds

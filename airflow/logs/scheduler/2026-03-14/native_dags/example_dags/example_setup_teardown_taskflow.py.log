@@ -133,3 +133,8 @@
 [2026-03-14T10:21:20.867+0000] {logging_mixin.py:150} INFO - [2026-03-14T10:21:20.867+0000] {dagbag.py:541} INFO - Filling up the DagBag from /home/vscode/.local/lib/python3.10/site-packages/airflow/example_dags/example_setup_teardown_taskflow.py
 [2026-03-14T10:21:20.869+0000] {processor.py:838} WARNING - No viable dags retrieved from /home/vscode/.local/lib/python3.10/site-packages/airflow/example_dags/example_setup_teardown_taskflow.py
 [2026-03-14T10:21:20.878+0000] {processor.py:179} INFO - Processing /home/vscode/.local/lib/python3.10/site-packages/airflow/example_dags/example_setup_teardown_taskflow.py took 0.016 seconds
+[2026-03-14T10:22:09.407+0000] {processor.py:157} INFO - Started process (PID=39556) to work on /home/vscode/.local/lib/python3.10/site-packages/airflow/example_dags/example_setup_teardown_taskflow.py
+[2026-03-14T10:22:09.408+0000] {processor.py:826} INFO - Processing file /home/vscode/.local/lib/python3.10/site-packages/airflow/example_dags/example_setup_teardown_taskflow.py for tasks to queue
+[2026-03-14T10:22:09.409+0000] {logging_mixin.py:150} INFO - [2026-03-14T10:22:09.409+0000] {dagbag.py:541} INFO - Filling up the DagBag from /home/vscode/.local/lib/python3.10/site-packages/airflow/example_dags/example_setup_teardown_taskflow.py
+[2026-03-14T10:22:09.412+0000] {processor.py:838} WARNING - No viable dags retrieved from /home/vscode/.local/lib/python3.10/site-packages/airflow/example_dags/example_setup_teardown_taskflow.py
+[2026-03-14T10:22:09.422+0000] {processor.py:179} INFO - Processing /home/vscode/.local/lib/python3.10/site-packages/airflow/example_dags/example_setup_teardown_taskflow.py took 0.018 seconds
